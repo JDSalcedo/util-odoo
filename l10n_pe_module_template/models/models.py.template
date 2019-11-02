@@ -1,0 +1,17 @@
+# License AGPL-3.0 or later (http://www.gnu.org/licenses/agpl).
+
+from odoo import api, fields, models
+
+
+# class L10npe{{ name|snake }}(models.Model):
+    # _name = 'l10n_pe_{{ name|snake }}.{{ name|snake }}'
+    # _description = u'Descripción corta de clase'
+
+    # name = fields.Char()
+    # value = fields.Integer()
+    # value2 = fields.Float(compute="_value_pc", store=True)
+    # description = fields.Text()
+
+    # @api.depends('value')
+    # def _value_pc(self):
+    #     self.value2 = float(self.value) / 100
